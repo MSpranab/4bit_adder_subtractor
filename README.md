@@ -2,7 +2,7 @@
 >Abstract
 >Refrence Circuit Details
 >Refrence Circuit Waveform
->>Schematics and Symbols 
+>Schematics and Symbols 
    >and gate
    >or gate
    >xor gate
