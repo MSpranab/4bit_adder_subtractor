@@ -52,7 +52,7 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * BORROW =A’.B + A’.Cin + B.Cin
 
 # Reference Circuit Diagram
-** Main Circuit:-
+* Main Circuit:-
 ![dig51](https://user-images.githubusercontent.com/92252344/155161891-ec27472e-3103-4866-9f40-855cd4e984a6.png)
 * Full adder:-
 ![3-57](https://user-images.githubusercontent.com/92252344/155162159-e3b3f67b-9a37-4654-bcee-ae0821c2e6ad.png)
