@@ -13,6 +13,7 @@
    * 4bit_adder_subractor
 * [Vdd and Vgs values for MOSFETS](# Vdd and Vgs values for MOSFETS)
 * [Transient settings](# Transient settings)
+* [Testbench](#Testbench)
 * [Simulated Waveform](# Simulated Waveform)
 * [Netlist](#Netlist)
 * [Conclusion](#Conclusion)
