@@ -50,3 +50,7 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * boolean equations for full subtractor:-
 * DIFFERENCE =A⊕B C⊕
 * BORROW =A’.B + A’.Cin + B.Cin
+
+# Reference Circuit Diagram
+![dig51](https://user-images.githubusercontent.com/92252344/155161891-ec27472e-3103-4866-9f40-855cd4e984a6.png)
+
