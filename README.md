@@ -1,7 +1,7 @@
 # 4bit_adder_subtractor
 ******************************************************************************************************************************************
 * [Abstract](#Abstract)
-* [Reference Circuit details](#ReferenceCircuitdetails)
+* [Reference Circuit details](#Reference#Circuit#details)
 * [Reference Circuit Diagram](#ReferenceCircuitDiagram)
 * [Reference WaveForm](#ReferenceWaveForm)
 * [Synopsys Simulations](#SynopsysSimulations)
@@ -11,21 +11,21 @@
    * xor gate
    * Full adder
    * 4bit_adder_subractor
-* [Vdd and Vgs values for MOSFETS](# VddandVgsvaluesforMOSFETS)
-* [Transient settings](# Transientsettings)
+* [Vdd and Vgs values for MOSFETS](#VddandVgsvaluesforMOSFETS)
+* [Transient settings](#Transientsettings)
 * [Testbench](#Testbench)
 * [Simulated Waveform](#SimulatedWaveform)
 * [Netlist](#Netlist)
 * [Conclusion](#Conclusion)
 * [Acknowledgement](#Acknowledgement)
 * [References](#References)
-******************************************************************************************************************************************
+* 
 # Abstract
   The need to have hardware support for binary arithmetic is increasing in recent years because of the growth in the Binary data processing in 
   commercial, financial and internet based applications. In this paper you will go through A binary 4bit_Adder-Subtractor. 
   It is a combinational circuit which is capable of performing binary addition and subtraction in one circuitry. The operation mode can be selected using control signal.
   This circuit majorly required the prerequisite knowledge on XOR gate.
-******************************************************************************************************************************************
+
 # Reference Circuit details
 * The circuit shown in the reference diagram 
 (a) has 
@@ -52,16 +52,16 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * boolean equations for full subtractor:-
 * DIFFERENCE =A⊕B C⊕
 * BORROW =A’.B + A’.Cin + B.Cin
-******************************************************************************************************************************************
+
 # Reference Circuit Diagram
 * Main Circuit:-
 * ![dig51](https://user-images.githubusercontent.com/92252344/155161891-ec27472e-3103-4866-9f40-855cd4e984a6.png)
 * Full adder:-
 * ![3-57](https://user-images.githubusercontent.com/92252344/155162159-e3b3f67b-9a37-4654-bcee-ae0821c2e6ad.png)
-******************************************************************************************************************************************
+
 # Reference WaveForm
 ![Capture](https://user-images.githubusercontent.com/92252344/155162644-a334d721-879e-47e5-9706-f61f42dbb66d.JPG)
-******************************************************************************************************************************************
+
 # Synopsys Simulations
 * Schematics and Symbols
    * and gate:-
@@ -78,22 +78,22 @@ ports(a,b,cin) and 2(cout,sum) output ports.
    * ![full adder(s)](https://user-images.githubusercontent.com/92252344/155167828-b0f221e4-6253-40df-b566-850c3a0456ad.JPG)
    * Main Circuit:-
    * ![4bas circuit](https://user-images.githubusercontent.com/92252344/155168248-537ec6be-ac00-43cd-8037-75ccad8679eb.JPG)
-******************************************************************************************************************************************
+
 # Vdd and Vgs values for MOSFETS
 * Vdd:-
 * ![vdd input](https://user-images.githubusercontent.com/92252344/155169273-41e8f205-42d4-494c-834b-df47aeb14543.JPG)
 * Vgs:-
 * ![vgs input](https://user-images.githubusercontent.com/92252344/155169364-12376f62-67e4-4265-afb2-c6eeb8993032.JPG)
-******************************************************************************************************************************************
+
 # Transient settings
 * ![trans](https://user-images.githubusercontent.com/92252344/155170197-27dc80a8-ecfc-44c9-80bb-d5fd4abc28c8.JPG)
-******************************************************************************************************************************************
+
 # Testbench
 * ![test bench](https://user-images.githubusercontent.com/92252344/155170601-e748e993-b86d-44be-b7c3-c7d9c1b46d5a.JPG)
-******************************************************************************************************************************************
+
 # Simulated Waveform
 * ![sim](https://user-images.githubusercontent.com/92252344/155171019-bba8e113-f94b-4b56-9037-deca9445b165.jpg)
-******************************************************************************************************************************************
+
 # Netlist
 *  Generated for: PrimeSim
 *  Design library name: add_sub
