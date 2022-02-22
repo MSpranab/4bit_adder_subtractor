@@ -43,9 +43,9 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * The gate used in the diagram a,b are:-
 1. xor 3.or
 2. and
-boolean equations for full adder:-
-SUM=A⊕B⊕C
-CARRY=A.B + A.Cin + B.Cin
-boolean equations for full subtractor:-
-DIFFERENCE =A⊕B C⊕
-BORROW =A’.B + A’.Cin + B.Cin
+* boolean equations for full adder:-
+* SUM=A⊕B⊕C
+* CARRY=A.B + A.Cin + B.Cin
+* boolean equations for full subtractor:-
+* DIFFERENCE =A⊕B C⊕
+* BORROW =A’.B + A’.Cin + B.Cin
