@@ -16,3 +16,12 @@
 * Conclusion
 * Acknowledgement
 * References
+
+# Abstract
+  In Digital Circuits, A binary 
+Adder-Subtractor is a combinational circuit 
+which is capable of performing binary 
+addition and subtraction in one circuitry. The 
+operation mode can be selected using 
+control signal. This circuit majorly required 
+the prerequisite knowledge on XOR gate.
