@@ -1,8 +1,8 @@
 # 4bit_adder_subtractor
 ******************************************************************************************************************************************
 * [Abstract](#Abstract)
-* [Reference Circuit details](# Reference Circuit details)
-* [Reference Circuit Diagram](# Reference Circuit Diagram)
+* [Reference Circuit details](# ReferenceCircuitdetails)
+* [Reference Circuit Diagram](# ReferenceCircuitDiagram)
 * [Reference WaveForm](# Reference WaveForm)
 * [Synopsys Simulations](# Synopsys Simulations)
 * [Schematics and Symbols](#S chematics and Symbols):- 
