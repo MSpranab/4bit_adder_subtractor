@@ -1,5 +1,5 @@
-# 4bit_adder_subtractor;
->Abstract;
+# 4bit_adder_subtractor
+# >Abstract
 >Refrence Circuit Details
 >Refrence Circuit Waveform
 >Schematics and Symbols 
