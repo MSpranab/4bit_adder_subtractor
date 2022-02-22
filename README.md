@@ -26,7 +26,7 @@
   It is a combinational circuit which is capable of performing binary addition and subtraction in one circuitry. The operation mode can be selected using control signal.
   This circuit majorly required the prerequisite knowledge on XOR gate.
 
-# Reference#Circuit#details
+# Reference# Circuit# details
 * The circuit shown in the reference diagram 
 (a) has 
 total of 9 input ports, In which a0 to a3 and b0
