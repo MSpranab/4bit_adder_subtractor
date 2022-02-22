@@ -1,20 +1,20 @@
 # 4bit_adder_subtractor
 ******************************************************************************************************************************************
 * [Abstract](#Abstract)
- **[Reference Circuit details](#Reference-Circuit-details)**
-* [Reference Circuit Diagram](#ReferenceCircuitDiagram)
-* [Reference WaveForm](#ReferenceWaveForm)
-* [Synopsys Simulations](#SynopsysSimulations)
-* [Schematics and Symbols](#SchematicsandSymbols):- 
+ *[Reference Circuit details](#Reference-Circuit-details)*
+* [Reference Circuit Diagram](#Reference-Circuit-Diagram)
+* [Reference WaveForm](#Reference-WaveForm)
+* [Synopsys Simulations](#Synopsys-Simulations)
+* [Schematics and Symbols](#Schematics-and-Symbols):- 
    * and gate
    * or gate
    * xor gate
    * Full adder
    * 4bit_adder_subractor
-* [Vdd and Vgs values for MOSFETS](#VddandVgsvaluesforMOSFETS)
-* [Transient settings](#Transientsettings)
+* [Vdd and Vgs values for MOSFETS](#Vdd-and-Vgs-values-for-MOSFETS)
+* [Transient settings](#Transient-settings)
 * [Testbench](#Testbench)
-* [Simulated Waveform](#SimulatedWaveform)
+* [Simulated Waveform](#Simulated-Waveform)
 * [Netlist](#Netlist)
 * [Conclusion](#Conclusion)
 * [Acknowledgement](#Acknowledgement)
