@@ -27,7 +27,7 @@
   The operation mode can be selected using control signal, control singal will also be taken as input to the 1st stage full adder.
   This circuitry is a combination of logic gates like and, or, xor gates.The major principle followed in this circutry is take from the ripple carry adder circuitry in which
   carry out of the previous stage full adder is given as input carry to the next full adder.This circuit majorly required the prerequisite knowledge on XOR gate, because 
-  by which we are performing 2'complement on one set of input data for performing subtraction operation.
+  by which we are performing 2'complement on one set of input data to perform subtraction operation.
 
 # Reference Circuit details
 * The circuit shown in the reference diagram 
