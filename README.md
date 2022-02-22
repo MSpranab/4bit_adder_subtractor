@@ -1,11 +1,11 @@
 # 4bit_adder_subtractor
 ******************************************************************************************************************************************
-* # Abstract
-* # Refrence Circuit Details
-* # Refrence Circuit Diagrams
-* # Refrence Circuit Waveform
-* # Simulation in Synopsys
-* # Schematics and Symbols:- 
+* Abstract
+* Refrence Circuit Details
+* Refrence Circuit Diagrams
+* Refrence Circuit Waveform
+* Simulation in Synopsys
+* Schematics and Symbols:- 
    * and gate
    * or gate
    * xor gate
@@ -19,8 +19,7 @@
 # Acknowledgement
 # References
 ******************************************************************************************************************************************
-# Abstract
-******************************************************************************************************************************************
+# [Abstract](Abstract)
   The need to have hardware support for binary arithmetic is increasing in recent years because of the growth in the Binary data processing in 
   commercial, financial and internet based applications. In this paper you will go through A binary 4bit_Adder-Subtractor. 
   It is a combinational circuit which is capable of performing binary addition and subtraction in one circuitry. The operation mode can be selected using control signal.
