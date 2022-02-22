@@ -2,19 +2,19 @@
 ******************************************************************************************************************************************
 * [Abstract](#Abstract)
 * [Reference Circuit details](#ReferenceCircuitdetails)
-* [Reference Circuit Diagram](# ReferenceCircuitDiagram)
-* [Reference WaveForm](# Reference WaveForm)
-* [Synopsys Simulations](# Synopsys Simulations)
-* [Schematics and Symbols](#S chematics and Symbols):- 
+* [Reference Circuit Diagram](#ReferenceCircuitDiagram)
+* [Reference WaveForm](#ReferenceWaveForm)
+* [Synopsys Simulations](#SynopsysSimulations)
+* [Schematics and Symbols](#SchematicsandSymbols):- 
    * and gate
    * or gate
    * xor gate
    * Full adder
    * 4bit_adder_subractor
-* [Vdd and Vgs values for MOSFETS](# Vdd and Vgs values for MOSFETS)
-* [Transient settings](# Transient settings)
+* [Vdd and Vgs values for MOSFETS](# VddandVgsvaluesforMOSFETS)
+* [Transient settings](# Transientsettings)
 * [Testbench](#Testbench)
-* [Simulated Waveform](# Simulated Waveform)
+* [Simulated Waveform](#SimulatedWaveform)
 * [Netlist](#Netlist)
 * [Conclusion](#Conclusion)
 * [Acknowledgement](#Acknowledgement)
