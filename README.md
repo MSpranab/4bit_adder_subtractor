@@ -46,7 +46,7 @@ four xor gates and 4 one bit full adders.
 The diagram (b) show the internal circuitry of 
 the one bit full adder which is having 3 input 
 ports(a,b,cin) and 2(cout,sum) output ports.
-* The gate used in the diagram a,b are:-
+* The gates used in the diagram a,b are:-
 1. xor 3.or
 2. and
 * boolean equations for full adder:-
@@ -66,7 +66,7 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 ![Capture](https://user-images.githubusercontent.com/92252344/155162644-a334d721-879e-47e5-9706-f61f42dbb66d.JPG)
 
 # Synopsys Simulations
-* # Schematics and Symbols
+# Schematics and Symbols
    *  and gate:-
    * ![and](https://user-images.githubusercontent.com/92252344/155165326-91be9a05-921f-4f69-8a8b-30b27b3ffc02.JPG)
    * ![and(s)](https://user-images.githubusercontent.com/92252344/155165925-82694b0f-0046-404e-9af5-cb55e4c9cd76.JPG)
