@@ -4,16 +4,16 @@
 * Refrence Circuit Diagrams
 * Refrence Circuit Waveform
 * Simulation in Synopsys
-* ->Schematics and Symbols 
+* Schematics and Symbols:- 
    * and gate
    * or gate
    * xor gate
    * Full adder
    * 4bit_adder_subractor
-   * Parameters set for source and inputs(vdd and vpulse values)
-   * Transient settings
-   * Netlist
-   * Waveforms
+* Parameters set for source and inputs(vdd and vpulse values)
+* Transient settings
+* Netlist
+* Waveforms
 * Conclusion
 * Acknowledgement
 * References
