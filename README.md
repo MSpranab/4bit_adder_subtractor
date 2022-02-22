@@ -1,6 +1,7 @@
 # 4bit_adder_subtractor
 * Abstract
 * Refrence Circuit Details
+* Refrence Circuit Diagrams
 * Refrence Circuit Waveform
 * Schematics and Symbols 
    * and gate
