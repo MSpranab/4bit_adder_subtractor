@@ -1,4 +1,5 @@
 # 4bit_adder_subtractor
+******************************************************************************************************************************************
 * Abstract
 * Refrence Circuit Details
 * Refrence Circuit Diagrams
@@ -17,13 +18,13 @@
 * Conclusion
 * Acknowledgement
 * References
-
+******************************************************************************************************************************************
 # Abstract
   The need to have hardware support for binary arithmetic is increasing in recent years because of the growth in the Binary data processing in 
   commercial, financial and internet based applications. In this paper you will go through A binary 4bit_Adder-Subtractor. 
   It is a combinational circuit which is capable of performing binary addition and subtraction in one circuitry. The operation mode can be selected using control signal.
   This circuit majorly required the prerequisite knowledge on XOR gate.
-
+******************************************************************************************************************************************
 # Reference Circuit details
 * The circuit shown in the reference diagram 
 (a) has 
@@ -50,16 +51,16 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * boolean equations for full subtractor:-
 * DIFFERENCE =A⊕B C⊕
 * BORROW =A’.B + A’.Cin + B.Cin
-
+******************************************************************************************************************************************
 # Reference Circuit Diagram
 * Main Circuit:-
 * ![dig51](https://user-images.githubusercontent.com/92252344/155161891-ec27472e-3103-4866-9f40-855cd4e984a6.png)
 * Full adder:-
 * ![3-57](https://user-images.githubusercontent.com/92252344/155162159-e3b3f67b-9a37-4654-bcee-ae0821c2e6ad.png)
-
+******************************************************************************************************************************************
 # Reference WaveForm
 ![Capture](https://user-images.githubusercontent.com/92252344/155162644-a334d721-879e-47e5-9706-f61f42dbb66d.JPG)
-
+******************************************************************************************************************************************
 # Synopsys Simulations
 * 1.Schematics and Symbols
    * and gate:-
@@ -76,24 +77,24 @@ ports(a,b,cin) and 2(cout,sum) output ports.
    * ![full adder(s)](https://user-images.githubusercontent.com/92252344/155167828-b0f221e4-6253-40df-b566-850c3a0456ad.JPG)
    * Main Circuit:-
    * ![4bas circuit](https://user-images.githubusercontent.com/92252344/155168248-537ec6be-ac00-43cd-8037-75ccad8679eb.JPG)
-
+******************************************************************************************************************************************
 # Vdd and Vgs values for MOSFETS
-* vdd:-
+* Vdd:-
 * ![vdd input](https://user-images.githubusercontent.com/92252344/155169273-41e8f205-42d4-494c-834b-df47aeb14543.JPG)
-* vgs:-
+* Vgs:-
 * ![vgs input](https://user-images.githubusercontent.com/92252344/155169364-12376f62-67e4-4265-afb2-c6eeb8993032.JPG)
-
+******************************************************************************************************************************************
 # Transient settings
 * ![trans](https://user-images.githubusercontent.com/92252344/155170197-27dc80a8-ecfc-44c9-80bb-d5fd4abc28c8.JPG)
-
+******************************************************************************************************************************************
 # Testbench
 * ![test bench](https://user-images.githubusercontent.com/92252344/155170601-e748e993-b86d-44be-b7c3-c7d9c1b46d5a.JPG)
-
+******************************************************************************************************************************************
 # Simulated Waveform
 * ![sim](https://user-images.githubusercontent.com/92252344/155171019-bba8e113-f94b-4b56-9037-deca9445b165.jpg)
-
+******************************************************************************************************************************************
 # Netlist
-* *  Generated for: PrimeSim
+*  Generated for: PrimeSim
 *  Design library name: add_sub
 *  Design cell name: tb
 *  Design view name: schematic
@@ -250,11 +251,19 @@ xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor
 .end
 
 
-
-
-
-
- 
+# Conclusion
+* We can reduce the use of multiple hardware resources required to make 4-bit full adder separately and another 4-bit full subtractor.
+* By just using the control signal we can which between two modes adder and subtractor.
+* With this design we can make N-bit adder_subtractor.
+******************************************************************************************************************************************
+# Acknowledgement
+1.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+2.Chinmay panda, IIT Hyderabad
+3.Sameer Durgoji, NIT Karnataka
+******************************************************************************************************************************************
+ # References
+* https://www.geeksforgeeks.org/4-bit-binary-addersubtractor/
+* https://www.javatpoint.com/coa-binary-adder-subtractor
 
 
 
