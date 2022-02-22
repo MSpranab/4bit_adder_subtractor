@@ -19,7 +19,7 @@
 * [Conclusion](#Conclusion)
 * [Acknowledgement](#Acknowledgement)
 * [References](#References)
-* 
+
 # Abstract
   The need to have hardware support for binary arithmetic is increasing in recent years because of the growth in the Binary data processing in 
   commercial, financial and internet based applications. In this paper you will go through A binary 4bit_Adder-Subtractor. 
