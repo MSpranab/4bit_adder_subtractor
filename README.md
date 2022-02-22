@@ -3,13 +3,13 @@
 * Refrence Circuit Details
 * Refrence Circuit Diagrams
 * Refrence Circuit Waveform
-* Schematics and Symbols 
+* Simulation in Synopsys
+* ->Schematics and Symbols 
    * and gate
    * or gate
    * xor gate
    * Full adder
    * 4bit_adder_subractor
-   * Simulation in Synopsys
    * Parameters set for source and inputs(vdd and vpulse values)
    * Transient settings
    * Netlist
@@ -25,7 +25,7 @@
   This circuit majorly required the prerequisite knowledge on XOR gate.
 
 # Reference Circuit details
-* →The circuit shown in the reference diagram 
+* The circuit shown in the reference diagram 
 (a) has 
 total of 9 input ports, In which a0 to a3 and b0
 to b3 are the binary inputs, K is the control 
@@ -56,5 +56,8 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 ![dig51](https://user-images.githubusercontent.com/92252344/155161891-ec27472e-3103-4866-9f40-855cd4e984a6.png)
 * Full adder:-
 ![3-57](https://user-images.githubusercontent.com/92252344/155162159-e3b3f67b-9a37-4654-bcee-ae0821c2e6ad.png)
+
+# Reference WaveForm
+![Capture](https://user-images.githubusercontent.com/92252344/155162644-a334d721-879e-47e5-9706-f61f42dbb66d.JPG)
 
 
