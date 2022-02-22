@@ -23,8 +23,8 @@
   It is a combinational circuit which is capable of performing binary addition and subtraction in one circuitry. The operation mode can be selected using control signal.
   This circuit majorly required the prerequisite knowledge on XOR gate.
 
-#Reference Circuit details
-  →The circuit shown in the reference diagram 
+# Reference Circuit details
+* →The circuit shown in the reference diagram 
 (a) has 
 total of 9 input ports, In which a0 to a3 and b0
 to b3 are the binary inputs, K is the control 
@@ -40,7 +40,7 @@ four xor gates and 4 one bit full adders.
 The diagram (b) show the internal circuitry of 
 the one bit full adder which is having 3 input 
 ports(a,b,cin) and 2(cout,sum) output ports.
-The gate used in the diagram a,b are:-
+* The gate used in the diagram a,b are:-
 1. xor 3.or
 2. and
 boolean equations for full adder:-
