@@ -29,7 +29,7 @@
   carry of the previous stage full adder is given as input to the next full adder.This circuit majorly required the prerequisite knowledge on XOR gate.
 
 # Reference Circuit details
-*** The circuit shown in the reference diagram 
+* * The circuit shown in the reference diagram 
 (a) has 
 total of 9 input ports, In which a0 to a3 and b0
 to b3 are the binary inputs, K is the control 
