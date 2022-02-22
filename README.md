@@ -24,12 +24,13 @@
   The need to have hardware support for binary arithmetic is increasing in recent years because of the growth in the Binary data processing in 
   commercial, financial and internet based applications. In this paper you will go through A binary 4bit_Adder-Subtractor. 
   It is a combinational circuit which is capable of performing binary addition and subtraction in one circuitry. 
-  The operation mode can be selected using control signal,the control singal will also be input to the 1st stage full adder.
-  The circuitry is a combination of logic gates like and, or, xor gates.The major principle followed in this circutry is take from the ripple carry adder circuitry in which
-  carry of the previous stage full adder is given as input to the next full adder.This circuit majorly required the prerequisite knowledge on XOR gate.
+  The operation mode can be selected using control signal, control singal will also be taken as input to the 1st stage full adder.
+  This circuitry is a combination of logic gates like and, or, xor gates.The major principle followed in this circutry is take from the ripple carry adder circuitry in which
+  carry out of the previous stage full adder is given as input carry to the next full adder.This circuit majorly required the prerequisite knowledge on XOR gate, because 
+  by which we are performing 2'complement on one set of input data for performing subtraction operation.
 
 # Reference Circuit details
-* * The circuit shown in the reference diagram 
+* The circuit shown in the reference diagram 
 (a) has 
 total of 9 input ports, In which a0 to a3 and b0
 to b3 are the binary inputs, K is the control 
