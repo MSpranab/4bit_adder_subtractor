@@ -53,17 +53,36 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 
 # Reference Circuit Diagram
 * Main Circuit:-
-![dig51](https://user-images.githubusercontent.com/92252344/155161891-ec27472e-3103-4866-9f40-855cd4e984a6.png)
+* ![dig51](https://user-images.githubusercontent.com/92252344/155161891-ec27472e-3103-4866-9f40-855cd4e984a6.png)
 * Full adder:-
-![3-57](https://user-images.githubusercontent.com/92252344/155162159-e3b3f67b-9a37-4654-bcee-ae0821c2e6ad.png)
+* ![3-57](https://user-images.githubusercontent.com/92252344/155162159-e3b3f67b-9a37-4654-bcee-ae0821c2e6ad.png)
 
 # Reference WaveForm
 ![Capture](https://user-images.githubusercontent.com/92252344/155162644-a334d721-879e-47e5-9706-f61f42dbb66d.JPG)
 
 # Synopsys Simulations
-* 1.Schematic and Symbol
+* 1.Schematics and Symbols
    * and:-
    * ![and](https://user-images.githubusercontent.com/92252344/155165326-91be9a05-921f-4f69-8a8b-30b27b3ffc02.JPG)
+   * ![and(s)](https://user-images.githubusercontent.com/92252344/155165925-82694b0f-0046-404e-9af5-cb55e4c9cd76.JPG)
+   * Or:-
+   * ![or](https://user-images.githubusercontent.com/92252344/155166420-c51c24fa-9b06-4c6f-9256-2d38bf1d1396.JPG)
+   * ![or(s)](https://user-images.githubusercontent.com/92252344/155166486-4a04b766-18cd-46b1-814e-2a53e5269eb5.JPG)
+   * Xor:-
+   * ![xor](https://user-images.githubusercontent.com/92252344/155166920-def5e565-05b9-4ee8-b3a6-f670fea5d98a.JPG)
+   * ![image](https://user-images.githubusercontent.com/92252344/155166958-824a68c0-3d43-4c34-83cf-b3e6c3e66fd5.png)
+   * Full Adder:-
+   * ![full adder](https://user-images.githubusercontent.com/92252344/155167547-a7d93b3f-5dc7-417a-b8a0-9f3e8de3d51d.JPG)
+   * ![full adder(s)](https://user-images.githubusercontent.com/92252344/155167828-b0f221e4-6253-40df-b566-850c3a0456ad.JPG)
+
+
+
+
+
+
+
+
+   
 
 
 
