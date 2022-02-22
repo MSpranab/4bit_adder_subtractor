@@ -1,9 +1,9 @@
 # 4bit_adder_subtractor
 ******************************************************************************************************************************************
 * [Abstract](#Abstract)
-* [Refrence Circuit Details](#Refrence Circuit Details)
-* [Refrence Circuit Diagrams](#Refrence Circuit Diagrams)
-* [Refrence Circuit Waveform](#Refrence Circuit Waveform)
+* [Reference Circuit details](#Reference Circuit details)
+* [Reference Circuit Diagram](#Reference Circuit Diagram)
+* [Reference WaveForm](#Reference WaveForm)
 * [Synopsys Simulations](#Synopsys Simulations)
 * [Schematics and Symbols](#Schematics and Symbols):- 
    * and gate
@@ -11,13 +11,13 @@
    * xor gate
    * Full adder
    * 4bit_adder_subractor
-# [Vdd and Vgs values for MOSFETS](#Vdd and Vgs values for MOSFETS)
-# [Transient settings](#Transient settings)
-# [Simulated Waveform](#Simulated Waveform0
-# [Netlist](#Netlist)
-# [Conclusion](#Conclusion)
-# [Acknowledgement](#Acknowledgement)
-# [References](#References)
+* [Vdd and Vgs values for MOSFETS](#Vdd and Vgs values for MOSFETS)
+* [Transient settings](#Transient settings)
+* [Simulated Waveform](#Simulated Waveform)
+* [Netlist](#Netlist)
+* [Conclusion](#Conclusion)
+* [Acknowledgement](#Acknowledgement)
+* [References](#References)
 ******************************************************************************************************************************************
 # Abstract
   The need to have hardware support for binary arithmetic is increasing in recent years because of the growth in the Binary data processing in 
