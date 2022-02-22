@@ -257,10 +257,9 @@ xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor
 * With this design we can make N-bit adder_subtractor.
 ******************************************************************************************************************************************
 # Acknowledgement
-******************************************************************************************************************************************
-1.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-2.Chinmay panda, IIT Hyderabad
-3.Sameer Durgoji, NIT Karnataka
+* 1.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+*** 2.Chinmay panda, IIT Hyderabad
+** 3.Sameer Durgoji, NIT Karnataka
 ******************************************************************************************************************************************
  # References
 * https://www.geeksforgeeks.org/4-bit-binary-addersubtractor/
