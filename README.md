@@ -262,7 +262,7 @@ xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor
 * 3.Sameer Durgoji, NIT Karnataka
 ******************************************************************************************************************************************
  # References
-* https://www.geeksforgeeks.org/4-bit-binary-addersubtractor/
+* https://www.geeksforgeeks.org/4-bit-binary-adder-subtractor/
 * https://www.javatpoint.com/coa-binary-adder-subtractor
 
 
