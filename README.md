@@ -115,7 +115,7 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 ********************************************************************************
-* subckt or a b out vt_bulk_n_gnd! vt_bulk_p_vdd!
+* subckt or a b out vt_bulk_n_gnd! vt_bulk_p_vdd! 
 xm8 net30 a net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm6 out net47 net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm3 net18 b net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
@@ -140,7 +140,7 @@ v15 net12 gnd! dc=0.9
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 ********************************************************************************
-.subckt and a b out vt_bulk_n_gnd! vt_bulk_p_vdd!
+* subckt and a b out vt_bulk_n_gnd! vt_bulk_p_vdd!
 xm2 out net18 net20 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm1 net18 b net20 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm0 net18 a net20 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
@@ -208,21 +208,21 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 ********************************************************************************
-v36 a3 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
-v35 a2 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
-v34 b0 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
-v33 b1 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
-v32 b2 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
-v31 b3 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
-v37 k gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 20u 40u )
-v16 a1 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
-v8 a0 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
-c26 cout gnd! c=1p
-c21 so gnd! c=1p
-c23 s1 gnd! c=1p
-c24 s2 gnd! c=1p
-c25 s3 gnd! c=1p
-xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor
+* v36 a3 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
+  v35 a2 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
+  v34 b0 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
+  v33 b1 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
+  v32 b2 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
+  v31 b3 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
+  v37 k gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 20u 40u )
+  v16 a1 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
+  v8 a0 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
+  c26 cout gnd! c=1p
+  c21 so gnd! c=1p
+  c23 s1 gnd! c=1p
+  c24 s2 gnd! c=1p
+  c25 s3 gnd! c=1p
+  xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor
 
 
 
