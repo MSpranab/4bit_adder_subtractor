@@ -189,7 +189,7 @@ xi5 net17 net18 carry vt_bulk_n_gnd! vt_bulk_p_vdd! xor
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 
-subckt adder_subtractor a0 a1 a2 a3 b0 b1 b2 b3 cout k s0 s1 s2 s3\
+subckt adder_subtractor a0 a1 a2 a3 b0 b1 b2 b3 cout k s0 s1 s2 s3
 + vt_bulk_n_gnd! vt_bulk_p_vdd!\
 xi3 b0 k net13 vt_bulk_n_gnd! vt_bulk_p_vdd! or
 xi2 b1 k net18 vt_bulk_n_gnd! vt_bulk_p_vdd! or
