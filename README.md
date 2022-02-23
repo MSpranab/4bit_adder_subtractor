@@ -134,7 +134,6 @@ xm1 net4 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
 v15 net12 gnd! dc=0.9 
 .ends or
 ********************************************************************************
-
 * Library          : add_sub
 * Cell             : and
 * View             : schematic
@@ -190,7 +189,7 @@ xi5 net17 net18 carry vt_bulk_n_gnd! vt_bulk_p_vdd! xor
 * View Stop List   : hspice hspiceD
 
 subckt adder_subtractor a0 a1 a2 a3 b0 b1 b2 b3 cout k s0 s1 s2 s3
-+ vt_bulk_n_gnd! vt_bulk_p_vdd!\
++ vt_bulk_n_gnd! vt_bulk_p_vdd!
 xi3 b0 k net13 vt_bulk_n_gnd! vt_bulk_p_vdd! or
 xi2 b1 k net18 vt_bulk_n_gnd! vt_bulk_p_vdd! or
 xi1 b2 k net23 vt_bulk_n_gnd! vt_bulk_p_vdd! or
@@ -201,7 +200,6 @@ xi5 net20 s1 net25 a1 net18 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 .ends adder_subtractor
 ********************************************************************************
-
 * Library          : add_sub
 * Cell             : tb
 * View             : schematic
@@ -224,32 +222,14 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
  xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor
 
 
-
-
-
-
-
-
 .tran '0.001*(40u-0u)' '40u' start=0u name=tran
-
 .option primesim_remove_probe_prefix = 0
 .probe v(*) i(*) level=1\
 .probe tran v(a0) v(a1) v(a2) v(a3) v(b0) v(b1) v(b2) v(b3) v(cout) v(k) v(s1)
 + v(s2) v(s3) v(so)
 .temp 25
-
-
-
 .option primesim_output=wdf
-
-
 .option parhier = LOCAL
-
-
-
-
-
-
 .end
 ```
 ******************************************************************************************************************************************
