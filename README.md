@@ -98,6 +98,7 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * ![sim](https://user-images.githubusercontent.com/92252344/155171019-bba8e113-f94b-4b56-9037-deca9445b165.jpg)
 
 # Netlist
+```
 *  Generated for: PrimeSim
 *  Design library name: add_sub
 *  Design cell name: tb
@@ -250,7 +251,7 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder\
 
 
 .end
-
+```
 ******************************************************************************************************************************************
 
 # Conclusion
