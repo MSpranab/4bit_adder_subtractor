@@ -115,10 +115,9 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 
-* subckt or a b out vt_bulk_n_gnd! vt_bulk_p_vdd! 
-
+* / subckt or a b out vt_bulk_n_gnd! vt_bulk_p_vdd! 
 xm8 net30 a net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
-xm6 out net47 net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm6 out net47 net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1.
 xm3 net18 b net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm4 net47 net4 net18 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm5 net47 a net18 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
