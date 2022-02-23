@@ -131,7 +131,7 @@ xm10 net47 net4 net49 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1 \
 xm9 net30 a gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1 \
 xm1 net4 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1 \
 v15 net12 gnd! dc=0.9 \
-.ends or\
+.ends or
 ********************************************************************************
 
 * Library          : add_sub
@@ -148,9 +148,9 @@ xm5 out net18 gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1\
 xm4 net13 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1\
 xm3 net18 a net13 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1\
 v6 net20 gnd! dc=1.2\
-.ends and\
+.ends and
 
-
+********************************************************************************
 * Library          : add_sub
 * Cell             : xor
 * View             : schematic
@@ -165,7 +165,7 @@ xm5 out net19 gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1\
 xm4 net19 a gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1\
 xm3 net19 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1\
 v8 net26 gnd! dc=0.9\
-.ends xor\
+.ends xor
 
 ********************************************************************************
 * Library          : add_sub
@@ -198,7 +198,7 @@ xi7 net30 s3 cout a3 net28 vt_bulk_n_gnd! vt_bulk_p_vdd! adder\
 xi6 net25 s2 net30 a2 net23 vt_bulk_n_gnd! vt_bulk_p_vdd! adder\
 xi5 net20 s1 net25 a1 net18 vt_bulk_n_gnd! vt_bulk_p_vdd! adder\
 xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder\
-.ends adder_subtractor\
+.ends adder_subtractor
 ********************************************************************************
 
 * Library          : add_sub
@@ -220,7 +220,7 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder\
  c23 s1 gnd! c=1p\
  c24 s2 gnd! c=1p\
  c25 s3 gnd! c=1p\
- xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor\
+ xi19 a0 a1 a2 a3 b0 b1 b2 b3 cout k so s1 s2 s3 gnd! vdd! adder_subtractor
 
 
 
@@ -229,21 +229,20 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder\
 
 
 
-.tran '0.001*(40u-0u)' '40u' start=0u name=tran\
+.tran '0.001*(40u-0u)' '40u' start=0u name=tran
 
-.option primesim_remove_probe_prefix = 0\
+.option primesim_remove_probe_prefix = 0
 .probe v(*) i(*) level=1\
-.probe tran v(a0) v(a1) v(a2) v(a3) v(b0) v(b1) v(b2) v(b3) v(cout) v(k) v(s1)\
-+ v(s2) v(s3) v(so)\
-
-.temp 25\
-
+.probe tran v(a0) v(a1) v(a2) v(a3) v(b0) v(b1) v(b2) v(b3) v(cout) v(k) v(s1)
++ v(s2) v(s3) v(so)
+.temp 25
 
 
-.option primesim_output=wdf\
+
+.option primesim_output=wdf
 
 
-.option parhier = LOCAL\
+.option parhier = LOCAL
 
 
 
