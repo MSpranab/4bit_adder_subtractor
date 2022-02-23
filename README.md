@@ -114,7 +114,7 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 * View             : schematic
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
-********************************************************************************
+
 * subckt or a b out vt_bulk_n_gnd! vt_bulk_p_vdd! 
 xm8 net30 a net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm6 out net47 net12 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
@@ -133,13 +133,13 @@ xm1 net4 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
 v15 net12 gnd! dc=0.9
 .ends or
 
-********************************************************************************
+
 * Library          : add_sub
 * Cell             : and
 * View             : schematic
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
-********************************************************************************
+
 * subckt and a b out vt_bulk_n_gnd! vt_bulk_p_vdd!
 xm2 out net18 net20 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm1 net18 b net20 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
@@ -150,14 +150,14 @@ xm3 net18 a net13 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
 v6 net20 gnd! dc=1.2
 .ends and
 
-********************************************************************************
+
 * Library          : add_sub
 * Cell             : xor
 * View             : schematic
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
-********************************************************************************
-.subckt xor a b out vt_bulk_n_gnd! vt_bulk_p_vdd!
+
+* subckt xor a b out vt_bulk_n_gnd! vt_bulk_p_vdd!
 xm2 out net19 net26 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm1 net19 b net4 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
 xm0 net4 a net26 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
@@ -167,14 +167,14 @@ xm3 net19 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
 v8 net26 gnd! dc=0.9
 .ends xor
 
-********************************************************************************
+
 * Library          : add_sub
 * Cell             : adder
 * View             : schematic
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
-********************************************************************************
-.subckt adder cin sum carry in1 in2 vt_bulk_n_gnd! vt_bulk_p_vdd!
+
+* subckt adder cin sum carry in1 in2 vt_bulk_n_gnd! vt_bulk_p_vdd!
 xi2 net23 cin sum vt_bulk_n_gnd! vt_bulk_p_vdd! or
 xi1 in1 in2 net23 vt_bulk_n_gnd! vt_bulk_p_vdd! or
 xi4 in1 in2 net18 vt_bulk_n_gnd! vt_bulk_p_vdd! and
@@ -182,14 +182,13 @@ xi3 cin net23 net17 vt_bulk_n_gnd! vt_bulk_p_vdd! and
 xi5 net17 net18 carry vt_bulk_n_gnd! vt_bulk_p_vdd! xor
 .ends adder
 
-********************************************************************************
 * Library          : add_sub
 * Cell             : adder_subtractor
 * View             : schematic
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
-********************************************************************************
-.subckt adder_subtractor a0 a1 a2 a3 b0 b1 b2 b3 cout k s0 s1 s2 s3
+
+* subckt adder_subtractor a0 a1 a2 a3 b0 b1 b2 b3 cout k s0 s1 s2 s3
 + vt_bulk_n_gnd! vt_bulk_p_vdd!
 xi3 b0 k net13 vt_bulk_n_gnd! vt_bulk_p_vdd! or
 xi2 b1 k net18 vt_bulk_n_gnd! vt_bulk_p_vdd! or
@@ -201,13 +200,12 @@ xi5 net20 s1 net25 a1 net18 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 .ends adder_subtractor
 
-********************************************************************************
+
 * Library          : add_sub
 * Cell             : tb
 * View             : schematic
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
-********************************************************************************
 * v36 a3 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
   v35 a2 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 5u 10u )
   v34 b0 gnd! dc=0 pulse ( 0.9 0 0 0.1u 0.1u 2.5u 5u )
@@ -254,6 +252,7 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 
 .end
 
+******************************************************************************************************************************************
 
 # Conclusion
 * We can reduce the use of multiple hardware resources required to make 4-bit full adder separately and another 4-bit full subtractor.
