@@ -133,6 +133,7 @@ xm9 net30 a gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
 xm1 net4 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1 
 v15 net12 gnd! dc=0.9 
 .ends or
+
 ********************************************************************************
 * Library          : add_sub
 * Cell             : and
@@ -181,6 +182,7 @@ xi4 in1 in2 net18 vt_bulk_n_gnd! vt_bulk_p_vdd! and
 xi3 cin net23 net17 vt_bulk_n_gnd! vt_bulk_p_vdd! and
 xi5 net17 net18 carry vt_bulk_n_gnd! vt_bulk_p_vdd! xor
 .ends adder
+
 ********************************************************************************
 * Library          : add_sub
 * Cell             : adder_subtractor
@@ -199,6 +201,7 @@ xi6 net25 s2 net30 a2 net23 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 xi5 net20 s1 net25 a1 net18 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 .ends adder_subtractor
+
 ********************************************************************************
 * Library          : add_sub
 * Cell             : tb
