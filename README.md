@@ -7,7 +7,7 @@ This repository presents the design of 4_bit_adder_subtractor implemented using 
 * [Reference Circuit Diagram](#Reference-Circuit-Diagram)
 * [Reference WaveForm](#Reference-WaveForm)
 * [Synopsys Simulations](#Synopsys-Simulations)
-* [Schematics and Symbols](#Schematics-and-Symbols):- 
+* [Schematics and Symbols](#Schematics-and-Symbols)
 * [Vdd and Vgs values for MOSFETS](#Vdd-and-Vgs-values-for-MOSFETS)
 * [Transient settings](#Transient-settings)
 * [Testbench](#Testbench)
@@ -240,9 +240,12 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 * With this design we can make N-bit adder_subtractor.
 ******************************************************************************************************************************************
 # Acknowledgement
-* 1.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-* 2.Chinmay panda, IIT Hyderabad
-* 3.Sameer Durgoji, NIT Karnataka
+* 1.[Cloud Based Analog IC Design Hackathon](#https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+* 2.[Synopsys India](#https://www.synopsys.com/)
+* 3.[VLSI System Design (VSD) Corp. Pvt. Ltd India](#https://www.vlsisystemdesign.com/)
+* 4.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+* 5.Chinmay panda, IIT Hyderabad
+* 6.Sameer Durgoji, NIT Karnataka
 ******************************************************************************************************************************************
  # References
 * https://www.geeksforgeeks.org/4-bit-binary-adder-subtractor/
