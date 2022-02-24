@@ -74,16 +74,16 @@ ports(a,b,cin) and 2(cout,sum) output ports.
     ![and](https://user-images.githubusercontent.com/92252344/155165326-91be9a05-921f-4f69-8a8b-30b27b3ffc02.JPG)
     ![and(s)](https://user-images.githubusercontent.com/92252344/155165925-82694b0f-0046-404e-9af5-cb55e4c9cd76.JPG)
    *  Or gate:-
-   * ![or](https://user-images.githubusercontent.com/92252344/155166420-c51c24fa-9b06-4c6f-9256-2d38bf1d1396.JPG)
-   * ![or(s)](https://user-images.githubusercontent.com/92252344/155166486-4a04b766-18cd-46b1-814e-2a53e5269eb5.JPG)
+    ![or](https://user-images.githubusercontent.com/92252344/155166420-c51c24fa-9b06-4c6f-9256-2d38bf1d1396.JPG)
+    ![or(s)](https://user-images.githubusercontent.com/92252344/155166486-4a04b766-18cd-46b1-814e-2a53e5269eb5.JPG)
    *  Xor gate:-
-   * ![xor](https://user-images.githubusercontent.com/92252344/155166920-def5e565-05b9-4ee8-b3a6-f670fea5d98a.JPG)
-   * ![image](https://user-images.githubusercontent.com/92252344/155166958-824a68c0-3d43-4c34-83cf-b3e6c3e66fd5.png)
+    ![xor](https://user-images.githubusercontent.com/92252344/155166920-def5e565-05b9-4ee8-b3a6-f670fea5d98a.JPG)
+    ![image](https://user-images.githubusercontent.com/92252344/155166958-824a68c0-3d43-4c34-83cf-b3e6c3e66fd5.png)
    *  Full Adder:-
-   * ![full adder](https://user-images.githubusercontent.com/92252344/155167547-a7d93b3f-5dc7-417a-b8a0-9f3e8de3d51d.JPG)
-   * ![full adder(s)](https://user-images.githubusercontent.com/92252344/155167828-b0f221e4-6253-40df-b566-850c3a0456ad.JPG)
+    ![full adder](https://user-images.githubusercontent.com/92252344/155167547-a7d93b3f-5dc7-417a-b8a0-9f3e8de3d51d.JPG)
+    ![full adder(s)](https://user-images.githubusercontent.com/92252344/155167828-b0f221e4-6253-40df-b566-850c3a0456ad.JPG)
    *  Main Circuit:-
-   * ![4bas circuit](https://user-images.githubusercontent.com/92252344/155168248-537ec6be-ac00-43cd-8037-75ccad8679eb.JPG)
+    ![4bas circuit](https://user-images.githubusercontent.com/92252344/155168248-537ec6be-ac00-43cd-8037-75ccad8679eb.JPG)
 
 # Vdd and Vgs values for MOSFETS
 * Vdd:-
