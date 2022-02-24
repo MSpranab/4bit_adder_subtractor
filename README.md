@@ -1,8 +1,8 @@
 # 4bit_adder_subtractor
-This repository presents the design of 4_bit_adder_subtractor implemented using Synopsis Custom Compiler on 32nm CMOS Technology.
+This repository presents the design of 4_bit_adder_subtractor implemented using Synopsis Custom Compiler on 32nm CMOS Technology.\
 
-#Table of Contents
-
+# Table of Contents
+*********************************************************************************************************
 * [Abstract](#Abstract)
 * [Reference Circuit details](#Reference-Circuit-details)
 * [Reference Circuit Diagram](#Reference-Circuit-Diagram)
