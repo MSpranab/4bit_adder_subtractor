@@ -71,8 +71,8 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 # Synopsys Simulations
 # Schematics and Symbols
    *  and gate:-
-   * ![and](https://user-images.githubusercontent.com/92252344/155165326-91be9a05-921f-4f69-8a8b-30b27b3ffc02.JPG)
-   * ![and(s)](https://user-images.githubusercontent.com/92252344/155165925-82694b0f-0046-404e-9af5-cb55e4c9cd76.JPG)
+    ![and](https://user-images.githubusercontent.com/92252344/155165326-91be9a05-921f-4f69-8a8b-30b27b3ffc02.JPG)
+    ![and(s)](https://user-images.githubusercontent.com/92252344/155165925-82694b0f-0046-404e-9af5-cb55e4c9cd76.JPG)
    *  Or gate:-
    * ![or](https://user-images.githubusercontent.com/92252344/155166420-c51c24fa-9b06-4c6f-9256-2d38bf1d1396.JPG)
    * ![or(s)](https://user-images.githubusercontent.com/92252344/155166486-4a04b766-18cd-46b1-814e-2a53e5269eb5.JPG)
