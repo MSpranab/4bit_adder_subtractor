@@ -30,7 +30,7 @@ This repository presents the design of 4_bit_adder_subtractor implemented using 
 # Synopsys Custom Compiler Tool Details
 The [Synopsys Custom Compiler™](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
 
-![custom_compiler](https://user-images.githubusercontent.com/92252344/155561268-5e3fe544-07b0-4aff-9e16-5d9aaad94059.png)
+   ![custom_compiler](https://user-images.githubusercontent.com/92252344/155561268-5e3fe544-07b0-4aff-9e16-5d9aaad94059.png)
 
 # Reference Circuit details
 * The circuit shown in the reference diagram 
