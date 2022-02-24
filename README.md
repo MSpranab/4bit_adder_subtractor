@@ -50,9 +50,9 @@ The diagram (b) show the internal circuitry of
 the one bit full adder which is having 3 input 
 ports(a,b,cin) and 2(cout,sum) output ports.
 * The gates used in the diagram a,b are:-
-1. xor\ 
-2. or\
-3. and\
+1. xor \ 
+2. or \
+3. and \
 * boolean equations for full adder:-
 * SUM=A⊕B⊕C
 * CARRY=A.B + A.Cin + B.Cin
