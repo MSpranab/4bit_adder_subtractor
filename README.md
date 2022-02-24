@@ -88,18 +88,15 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 
 # Vdd and Vgs values for MOSFETS
 * Vdd:-
-* ![vdd input](https://user-images.githubusercontent.com/92252344/155169273-41e8f205-42d4-494c-834b-df47aeb14543.JPG)
+![vdd input](https://user-images.githubusercontent.com/92252344/155169273-41e8f205-42d4-494c-834b-df47aeb14543.JPG)
 * Vgs:-
-* ![vgs input](https://user-images.githubusercontent.com/92252344/155169364-12376f62-67e4-4265-afb2-c6eeb8993032.JPG)
+![vgs input](https://user-images.githubusercontent.com/92252344/155169364-12376f62-67e4-4265-afb2-c6eeb8993032.JPG)
 
 # Transient settings
-* ![trans](https://user-images.githubusercontent.com/92252344/155170197-27dc80a8-ecfc-44c9-80bb-d5fd4abc28c8.JPG)
+![trans](https://user-images.githubusercontent.com/92252344/155170197-27dc80a8-ecfc-44c9-80bb-d5fd4abc28c8.JPG)
 
 # Testbench
-* ![test bench](https://user-images.githubusercontent.com/92252344/155170601-e748e993-b86d-44be-b7c3-c7d9c1b46d5a.JPG)
-
-# Simulated Waveform
-* ![sim](https://user-images.githubusercontent.com/92252344/155171019-bba8e113-f94b-4b56-9037-deca9445b165.jpg)
+![test bench](https://user-images.githubusercontent.com/92252344/155170601-e748e993-b86d-44be-b7c3-c7d9c1b46d5a.JPG)
 
 # Netlist
 ```
@@ -239,6 +236,9 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 .option parhier = LOCAL
 .end
 ```
+# Simulated Waveform
+![sim](https://user-images.githubusercontent.com/92252344/155171019-bba8e113-f94b-4b56-9037-deca9445b165.jpg)
+
 ******************************************************************************************************************************************
 
 # Conclusion
