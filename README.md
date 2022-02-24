@@ -98,6 +98,9 @@ ports(a,b,cin) and 2(cout,sum) output ports.
 # Testbench
 ![test bench](https://user-images.githubusercontent.com/92252344/155170601-e748e993-b86d-44be-b7c3-c7d9c1b46d5a.JPG)
 
+# Simulated Waveform
+![sim](https://user-images.githubusercontent.com/92252344/155171019-bba8e113-f94b-4b56-9037-deca9445b165.jpg)
+
 # Netlist
 ```
 *  Generated for: PrimeSim
@@ -236,8 +239,6 @@ xi4 k s0 net20 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! adder
 .option parhier = LOCAL
 .end
 ```
-# Simulated Waveform
-![sim](https://user-images.githubusercontent.com/92252344/155171019-bba8e113-f94b-4b56-9037-deca9445b165.jpg)
 
 ******************************************************************************************************************************************
 
