@@ -1,16 +1,14 @@
 # 4bit_adder_subtractor
-******************************************************************************************************************************************
+This repository presents the design of 4_bit_adder_subtractor implemented using Synopsis Custom Compiler on 32nm CMOS Technology.
+
+#Table of Contents
+
 * [Abstract](#Abstract)
 * [Reference Circuit details](#Reference-Circuit-details)
 * [Reference Circuit Diagram](#Reference-Circuit-Diagram)
 * [Reference WaveForm](#Reference-WaveForm)
 * [Synopsys Simulations](#Synopsys-Simulations)
 * [Schematics and Symbols](#Schematics-and-Symbols):- 
-   * and gate
-   * Or gate
-   * Xor gate
-   * Full Adder
-   * Main Circuit
 * [Vdd and Vgs values for MOSFETS](#Vdd-and-Vgs-values-for-MOSFETS)
 * [Transient settings](#Transient-settings)
 * [Testbench](#Testbench)
